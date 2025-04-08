@@ -1,13 +1,13 @@
 import Link from 'next/link'
-import React from 'react'
+import Navbar from '../components/navbar'
 
-const page = () => {
+const Home = () => {
   return (
     <div>
-      <Link href='/about'>About</Link>
-      <Link href='/portfolio'>portfolio</Link>
+      <Navbar />
     </div>
   )
 }
 
-export default page
+export default Home
+
